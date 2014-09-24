@@ -1,0 +1,49 @@
+
+<ul>
+  
+<div class="row">
+  <div class="col-md-4 col-md-offset-4"<h1> Bienvenido a Critter </h1>
+<h3> ¿Qué desea hacer? </h3></div>
+ 
+
+</div>
+
+  <div class="row">
+  <div class="col-md-6">INFO PAGINA</div>
+  <div class="col-md-6"><li> <%= link_to "Listado de Monstruos", monstruos_path %></li>
+  <li> <%= link_to "Ver el primer monstruo", ver_monstruos_path %></li></div>
+</div>
+  
+   <p><strong>(Opción recomendada)</strong> – Para ver este canal necesitás instalar el <a href="http://www.videolan.org/" target="_blank">VLC Player</a> y reiniciar el navegador. Luego podrás disfrutar de toda la programación de Canal 13 en vivo y en HD las 24 horas 100% libre de publicidad molesta.</p>
+<p>				<object id="vlcPlayer"   width="675" height="450" classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921"  codebase="http://download.videolan.org/pub/videolan/vlc/last/win32/axvlc.cab" events="True"><param name="Src" value="rtsp://stream.eltrecetv.com.ar/live13/13tv/13tv1" /><param name="ShowDisplay" value="True" /><param name="AutoLoop" value="True" /><param name="AutoPlay" value="True" /><embed id="vlc" type="application/x-vlc-plugin" pluginspage="http://www.videolan.org" width="675" height="450" src="rtsp://stream.eltrecetv.com.ar/live13/13tv/13tv1" id="vlc"></embed></object><br />
+		<a id="vlcdetector" class="ayuda" target="_blank" href="http://www.videolan.org/" style="display:none;"><strong>Canal 13 HD</br>Para ver esta señal es necesario instalar VLC Player y reiniciar el navegador.</strong></br></br><img src="http://freedownloads.us.com/cmsimages/products/vlc/vlc_logo_text.jpg" alt="vlc" style="display: block; margin-left: auto; margin-right: auto;"/></a><br />
+ 		<script language="javascript">
+			var plugin = navigator.plugins["VLC Web Plugin"];
+			if(plugin) {} 
+			else {
+  				try {
+	    			plugin = new ActiveXObject("VideoLAN.VLCPlugin.2");
+  				} catch(e) {
+  					document.getElementById("vlcdetector").style.display = "block";
+    				document.getElementById("vlcPlayer").style.display = "none";
+    				document.getElementById("player").style.lineHeight = "25px";
+  			}
+		}
+		</script></p>
+<div class="row">
+	
+
+  <div class="col-md-12"><%="CONTACTO:"%></div>
+
+
+</ul>
+
+<p><script type="text/javascript">
+    		jwplayer("playerKORZdvCkBhHE").setup({
+        	file: "rtmp://cp129990.live.edgefcs.net/live/notidiario@190117",
+        	width: "575",
+        	height: "330",
+        	autostart: "true"
+    		});
+		</script></p>
+<p><!-- BEGIN SMOWTION TAG - PLACE IS IMMEDIATELY AFTER YOUR PLAYER/EMBED/STREAM --><br />
